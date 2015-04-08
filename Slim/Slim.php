@@ -294,7 +294,7 @@ class Slim
             'log.level' => \Slim\Log::DEBUG,
             'log.enabled' => true,
             // View
-            'templates.path' => './templates',
+            'templates.path' => __DIR__.DIRECTORY_SEPARATOR."templates".DIRECTORY_SEPARATOR,
             'view' => '\Slim\View',
             // Cookies
             'cookies.encrypt' => false,
